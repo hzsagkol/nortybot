@@ -1,0 +1,17 @@
+{
+  "name": "norty",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "HZ.SAĞKOL",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "discord.js": "^11.3.2",
+    "moment": "^2.22.0",
+    "moment-duration-format": "^2.2.2"
+  }
+}
