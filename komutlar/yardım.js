@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
   .addField("**__Eğlence ve Kullanıcı Komutları:__**", `\nntyçayiç = Çay İçersiniz. \nnty!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nnty!sunucuresmi = BOT Sunucunun Resmini Atar. \nnty!sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \nnty!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nnty!espri = Rastgele Espri Gönderir. \nnty!sor <sorunuz> = Sorunuza Evet Hayır Belki cevapları verir. \nnty!taskağıtmakas = Taş Kağıt Makas Oynarsınız. \nnty!yazıtura = Yazı Tura Oynarsınız. \nnty!zekayaşım = Bot Zeka Yaşınızı Söyler.`)
   .addField("**__Sunucu Yetkilisi Komutları__**", `nty!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nnty!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nnty!unban = İstediğiniz Kişinin Yasağını Açar. \nnty!sustur = İstediğiniz Kişiyi Susturur.`)
   .addField("**__Botun Ana Komutları__**", "nty!yardım = Bot Komutlarını Atar. \nnty!bilgi = Bot Kendisi Hakkında Bilgi Verir. \nnty!ping = Bot Gecikme Süresini Söyler. \nntydavet = Bot Davet Linkini Atar. \nnty!istatistik = Bot İstatistiklerini Atar.")
-  
+  .addField("**__Nsfw Komutları__**", "nty!porngif = Gif yollar \nDİĞER KOMUTLAR BAKIMDADIR")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
